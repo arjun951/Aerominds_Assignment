@@ -31,10 +31,8 @@ const App = () => {
             <Text>{'\n'} </Text>
             <Text style={styles.text}> ISRO to launch surveillance satellite</Text>
 
-            <TouchableHighlight style={styles.touchableButton}
-              onPress={() => { this.toggleModal(!this.state.modalVisible) }}>
-              <Text>Story will close in 5 seconds..</Text>
-            </TouchableHighlight>
+            <Text style={styles.touchableButton}>Story will close in 5 seconds..</Text>
+            
           </View>
       </Modal>
 
