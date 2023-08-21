@@ -1,6 +1,6 @@
 # Aerominds_Assignment
 
-## This project is developed on Snacks platform ans it provides feature to test code on Android, IOS and Web. 
+## This project is developed on Snack platform as it provides feature to test code on Android, IOS and Web. 
 
 ## Intstuctions to run the code :
 
