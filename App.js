@@ -8,7 +8,7 @@ const App = () => {
     setModalVisible(true);
     setTimeout(() => {
       setModalVisible(false);
-    }, 4000);
+    }, 5000);
   };
 
   return (
@@ -33,7 +33,7 @@ const App = () => {
 
             <TouchableHighlight style={styles.touchableButton}
               onPress={() => { this.toggleModal(!this.state.modalVisible) }}>
-              <Text>Story will close in 4 seconds..</Text>
+              <Text>Story will close in 5 seconds..</Text>
             </TouchableHighlight>
           </View>
       </Modal>
